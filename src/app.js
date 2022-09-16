@@ -6,7 +6,7 @@ const { handle } = require("./error");
 const mongoose = require("mongoose");
 mongoose
   .connect(
-    `mongodb+srv://${process.env.USER}:${process.env.password}@cluster0.4qgz1jx.mongodb.net/?retryWrites=true&w=majority`
+    `mongodb+srv://gkhn:135335@cluster0.4qgz1jx.mongodb.net/?retryWrites=true&w=majority`
   )
   .then((data) => console.log("connected"));
 
